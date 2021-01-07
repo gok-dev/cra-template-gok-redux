@@ -1,10 +1,7 @@
 {
   "package": {
     "scripts": {
-      "start:dev": "react-scripts start",
-      "build": "react-scripts build",
-      "lint": "eslint --fix",
-      "eject": "react-scripts eject"
+      "lint": "eslint --fix"
     },
     "dependencies": {
       "@testing-library/jest-dom": "^5.11.4",
@@ -16,6 +13,22 @@
       "@types/jest": "^26.0.15",
       "typescript": "^4.1.2",
       "web-vitals": "^1.0.1"
+    },
+    "devDependencies": {
+      "@types/react-router-dom": "^5.1.7",
+      "@typescript-eslint/eslint-plugin": "^4.12.0",
+      "@typescript-eslint/parser": "^4.12.0",
+      "eslint": "^7.17.0",
+      "eslint-config-airbnb": "^18.2.1",
+      "eslint-config-prettier": "^7.1.0",
+      "eslint-plugin-import": "^2.22.1",
+      "eslint-plugin-jsx-a11y": "^6.4.1",
+      "eslint-plugin-prettier": "^3.3.1",
+      "eslint-plugin-react": "^7.22.0",
+      "prettier": "^2.2.1",
+      "husky": "^4.3.7",
+      "lint-staged": "^10.5.3",
+      "git-commit-msg-linter": "^3.0.0"
     },
     "eslintConfig": {
       "extends": ["react-app", "react-app/jest"]
