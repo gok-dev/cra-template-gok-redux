@@ -3,11 +3,7 @@
     "browser": true,
     "es6": true
   },
-  "extends": [
-    "airbnb",
-    "prettier",
-    "prettier/@typescript-eslint"
-  ],
+  "extends": ["airbnb", "prettier", "prettier/@typescript-eslint"],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaFeatures": {
@@ -16,21 +12,12 @@
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
-  "plugins": [
-    "react",
-    "prettier",
-    "@typescript-eslint"
-  ],
+  "plugins": ["react", "prettier", "@typescript-eslint"],
   "rules": {
     "react/jsx-filename-extension": [
       1,
       {
-        "extensions": [
-          ".js",
-          ".jsx",
-          ".ts",
-          ".tsx"
-        ]
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
       }
     ],
     "prettier/prettier": "error",
@@ -38,8 +25,6 @@
     "react/state-in-constructor": "off",
     "react/static-property-placement": "off",
     "react/jsx-props-no-spreading": "off",
-    "react/prop-types": "off",
-    "no-param-reassign": "off",
     "no-use-before-define": "off",
     "@typescript-eslint/no-use-before-define": [
       "error",
@@ -47,6 +32,8 @@
         "variables": false
       }
     ],
+    "react/prop-types": "off",
+    "no-param-reassign": "off",
     "no-console": "off",
     "import/extensions": [
       "error",
@@ -64,12 +51,7 @@
   "settings": {
     "import/resolver": {
       "node": {
-        "extensions": [
-          ".js",
-          ".jsx",
-          ".ts",
-          ".tsx"
-        ]
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
       }
     }
   }
