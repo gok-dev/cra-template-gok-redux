@@ -1,4 +1,4 @@
-<h1 align="center">Create React App Gok Template Basic</h1>
+<h1 align="center">Create React App Gok Template Redux</h1>
 
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=react&message=framework&color=blue&style=for-the-badge&logo=REACT"/>
@@ -13,6 +13,7 @@ Este projeto utiliza:
 
 - [TypeScript](https://www.typescriptlang.org/)
 - [React](https://pt-br.reactjs.org/)
+- [Redux](https://redux.js.org/)
 - [Styled Components](https://styled-components.com/)
 - [Jest](https://jestjs.io/)
 - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
@@ -23,11 +24,11 @@ Este projeto utiliza:
 ## Criar um novo projeto utilizando o template
 
 ```bash
-npx create-react-app my-app --template gok-basic
+npx create-react-app my-app --template gok-redux
 
 # or
 
-yarn create react-app my-app --template gok-basic
+yarn create react-app my-app --template gok-redux
 ```
 
 <!-- CONTRIBUTING -->

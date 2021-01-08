@@ -1,5 +1,5 @@
 {
-  "name": "cra-template-gok-basic",
+  "name": "cra-template-gok-redux",
   "version": "1.0.0",
   "keywords": [
     "react",
@@ -7,28 +7,30 @@
     "template",
     "typescript",
     "gok",
-    "gok-basic"
+    "gok-redux",
+    "redux",
+    "redux-sagas"
   ],
-  "description": "The base TypeScript template for Create React App.",
+  "description": "The base TypeScript template for Create React App with Redux.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gok-dev/cra-template-gok-basic.git",
-    "directory": "packages/cra-template-gok-basic"
+    "url": "https://github.com/gok-dev/cra-template-gok-redux.git",
+    "directory": "packages/cra-template-gok-redux"
   },
   "license": "MIT",
   "engines": {
     "node": ">=10"
   },
   "bugs": {
-    "url": "https://github.com/gok-dev/cra-template-gok-basic/issues"
+    "url": "https://github.com/gok-dev/cra-template-gok-redux/issues"
   },
   "files": [
     "template",
     "template.json"
   ],
   "devDependencies": {
+    "git-commit-msg-linter": "^3.0.0",
     "husky": "^4.3.7",
-    "lint-staged": "^10.5.3",
-    "git-commit-msg-linter": "^3.0.0"
+    "lint-staged": "^10.5.3"
   }
 }
